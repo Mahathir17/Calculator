@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edit_text_1_ID"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#0610D5"
+        android:hint="@string/edit_text1_text"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_2_ID"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#0610D5"
+        android:hint="@string/edit_text2_text"/>
+
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/add_button_ID"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/add"
+        android:layout_marginRight="0dp"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/sub_button_ID"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/sub"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        />
+
+        <Button
+            android:id="@+id/multiple_button_ID"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/multiple" />
+        <Button
+            android:id="@+id/divide_button_ID"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/divide" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/result_text_view_ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#010017"
+        android:textSize="25sp"
+        />
+
+
+</LinearLayout>

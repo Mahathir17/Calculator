@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mahathir edit</string>
+    <string name="edit_text1_text">Enter Number 1</string>
+    <string name="edit_text2_text">Enter Number 2</string>
+    <string name="add">+</string>
+    <string name="sub">-</string>
+    <string name="multiple">X</string>
+    <string name="divide">/</string>
+</resources>
