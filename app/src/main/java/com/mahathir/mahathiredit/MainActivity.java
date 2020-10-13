@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         subButton.setOnClickListener(this);
         multipleButton.setOnClickListener(this);
         divideButton.setOnClickListener(this);
+        String Name;
 
 
     }
